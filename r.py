@@ -4,12 +4,12 @@ import wolframalpha
 import google.generativeai as genai
 
 # Google Gemini API key
-GENAI_API_KEY = "AIzaSyABzyFOf6p7izi7VCWIb_Ypf-vZikqlh7o"  # Replace with your actual API key
+GENAI_API_KEY = "key"  # Replace with your actual API key
 genai.configure(api_key=GENAI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # WolframAlpha App ID
-APP_ID = "PHP8VP-Y7P8Y25TTW"  # Replace with your actual API key
+APP_ID = "key"  # Replace with your actual API key
 
 # Functions for the assistant
 def search_wikipedia(query):
